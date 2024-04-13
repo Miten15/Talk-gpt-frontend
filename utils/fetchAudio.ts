@@ -1,4 +1,4 @@
-const fetchAudio = async (text: string) => {
+export const fetchAudio = async (text: string) => {
 const response = await fetch(process.env.EXPO_PUBLIC_MY_ENDPOINT!,{
     method: "POST",
     headers: {" Content-Type": "application/json"},

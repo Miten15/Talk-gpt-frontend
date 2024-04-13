@@ -6,6 +6,7 @@ import { useVoiceRecognition } from './hooks/useVoiceRecognition';
 import { Audio } from "expo-av";
 import { writeAudioToFile } from './utils/writeAudioToFile';
 import { playFromPath } from './utils/playFromPath';
+import { fetchAudio } from './utils/fetchAudio';
 
 Audio.setAudioModeAsync({
   allowsRecordingIOS: false,
